@@ -1,0 +1,30 @@
+Fluxograma de implementação de Trabalho G1 - Índice invertido
+
+1º - Receber como entrada o nome de um arquivo "entrada.txt" com o formato: "N arquivo1.txt arquivo2.txt arquivo3.txt ... arquivoN.txt"; 
+	--> A primeira linha do "entrada.txt" contém o número N - representa o número de documentos da coloção.
+	--> Cada linha seguinte contém o nome do arquivo que contém um dos documentos da coleção. 
+	--> Verificar se os arquivos descritos existem.
+
+2º - Processar cada um dos arquivos, lendo palavra por palavra, e construindo o índice invertido;
+	--> Associar a cada documento um doc_id único e associar, em memória, este identificador com o nome do arquivo. 
+	--> Para extrair palavras, utilizar o procedimento ExtraiPalavras mostrado na página 205 do lviro "Projeto de Algoritmos" de Nívio Ziviani. 
+	
+	* UMA PALAVRA É : SEQUENCIA DE LETRAS OU DIGITOS, COMEÇANDO COM UMA LETRA;
+	* UMA PALAVRA PODE OCORRER MÚLTIPLAS VEZES NA MESMA LINHA OU EM VÁRIOS LINHAS NO MESMO DOCUMENTO.
+	...
+	...
+	...
+	
+	DETALHAMENTO DO TRABALHO :
+		--> LER A ENTRADA DO ARQUIVO .txt OU .doc.
+		--> PERMITIR A INSERÇÃO DE NOVAS PALAVRAS APÓS O CARREGAMENTO DO ARQUIVO;
+		--> UTILIZAR UM ALGORITMO DE ÁRVORE;
+		--> TEMPO DE EXECUÇÃO CONTA COMO CRITÉRIO DE AVALIAÇÃO;
+		--> GERAR ARQUIVOS DE TESTE;
+
+	
+	
+
+	
+
+
